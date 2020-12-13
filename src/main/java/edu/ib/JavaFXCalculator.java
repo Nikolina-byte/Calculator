@@ -18,7 +18,7 @@ public class JavaFXCalculator extends Application {
     public void start(Stage stage) throws IOException {
 
         Parent root = FXMLLoader.load(getClass().getResource("/fxml/calculator.fxml"));
-        Scene scene= new Scene(root,300,400);
+        Scene scene= new Scene(root,400,500);
         stage.setScene(scene);
         stage.setResizable(false);
         stage.show();
